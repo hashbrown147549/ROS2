@@ -45,7 +45,7 @@ QoS policies allow more flexibility (e.g., different levels of reliability, dura
 ## pseodocode
 Setting QoS on DDS entities
 
-    create a Domain Participant, -1 defaults to value defined in configuration file
+    //create a Domain Participant, -1 defaults to value defined in configuration file
     dds::domain::DomainParticipant dp(-1);
 
     dds::topic::qos::TopicQos topicQos
